@@ -1,0 +1,53 @@
+import 'package:get/get.dart';
+
+class MyLocalization extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    "ar": {
+      "Error": "خطأ",
+      "OK": "موافق",
+      "alert": "تنبيه",
+      "no_internet": "لا يوجد اتصال بالإنترنت",
+      "request_timeout": "انتهت مهلة الطلب",
+      "field_required": "هذا الحقل مطلوب",
+      "field_too_short": "يجب ألا يقل عن @min أحرف",
+      "field_too_long": "يجب ألا يزيد عن @max حرفاً",
+      "invalid_email": "البريد الإلكتروني غير صالح",
+      "invalid_phone": "رقم الهاتف غير صالح",
+      "invalid_username": "اسم المستخدم غير صالح",
+      "login": "تسجيل الدخول",
+      "login_subtitle": "سجّل الدخول للمتابعة",
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "demo_hint": "حساب تجريبي معبّأ مسبقاً من dummyjson.com",
+      "home": "الرئيسية",
+      "welcome_user": "مرحباً، @name",
+      "products": "المنتجات",
+      "logout": "تسجيل الخروج",
+      "change_language": "تغيير اللغة",
+    },
+    "en": {
+      "Error": "Error",
+      "OK": "OK",
+      "alert": "Alert",
+      "no_internet": "No internet connection",
+      "request_timeout": "The request timed out",
+      "field_required": "This field is required",
+      "field_too_short": "Must be at least @min characters",
+      "field_too_long": "Must be at most @max characters",
+      "invalid_email": "Enter a valid email address",
+      "invalid_phone": "Enter a valid phone number",
+      "invalid_username": "Enter a valid username",
+      "login": "Log in",
+      "login_subtitle": "Sign in to continue",
+      "username": "Username",
+      "password": "Password",
+      "demo_hint": "Demo account prefilled from dummyjson.com",
+      "home": "Home",
+      "welcome_user": "Welcome, @name",
+      "products": "Products",
+      "logout": "Log out",
+      "change_language": "Change language",
+    },
+  };
+}

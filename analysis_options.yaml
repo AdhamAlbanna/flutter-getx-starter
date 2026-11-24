@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+  errors:
+    # GetX 4.x still builds on package:flutter/material.dart, so the whole app
+    # must use it too (mixing it with package:material_ui breaks Theme lookups).
+    # Remove this line once GetX migrates to material_ui.
+    deprecated_member_use: ignore
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_const_constructors: true
